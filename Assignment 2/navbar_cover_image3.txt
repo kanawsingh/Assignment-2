@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div class="flex-container">
+        <h1 class="logo"><a>Kanaw Singh</a></h1>
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#bgContainer">Cover IMG</a></li>
+          <li><a href="#flipCardContainer">Cards</a></li>
+          <li><a href="#footerContainer">footer</a></li>
+        </ul>
+      </div>
+
+
+      <!-- Cover Image -->
+
+      <div class="bgContainer" id="bgContainer">
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F827536500257728452%2F&psig=AOvVaw19RPxY0TZjNT8buVDdqs-Q&ust=1614881240319000&source=images&cd=vfe&ved=0CAYQjRxqFwoTCLjg6c7clO8CFQAAAAAdAAAAABAD" alt="Background Cover Image" class="bgImage">
+      </div>
+
+
+
+      <!-- Flip Cards -->
+      <div class="flipCardContainer" id="flipCardContainer">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://wallpapercave.com/wp/YJYzFRD.jpg" alt="Avatar" id="avtarImg">
+          </div>
+          <div class="flip-card-back" id="fcb1">
+            <h1>FORD</h1> 
+            <p>FORD</p> 
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://i.pinimg.com/originals/62/a5/46/62a546b4d5cca931a39da25162009a99.png" alt="Avatar" id="avtarImg">
+          </div>
+          <div class="flip-card-back"  id="fcb2">
+            <h1>PORSHE</h1> 
+            <p>PORSHE</p> 
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://wallpaperaccess.com/full/177969.jpg" alt="Avatar" id="avtarImg">
+          </div>
+          <div class="flip-card-back"  id="fcb3">
+            <h1>LAMBO</h1> 
+            <p>LAMBO</p> 
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://wallpapercave.com/wp/AoLikDv.jpg" alt="Avatar" id="avtarImg">
+          </div>
+          <div class="flip-card-back"  id="fcb4">
+            <h1>AUDI</h1> 
+            <p>AUDI</p> 
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--Footer -->
+    <div class="footerContainer" id="footerContainer">
+        <footer>
+            <p>Kanaw Singh<br>
+                <span>&roll no. 1810991316<br>
+                CU CAMPUS</span>
+            </p>
+          </footer>
+
+    </div>
+    
+</body>
+</html>
